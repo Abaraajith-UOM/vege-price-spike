@@ -3,7 +3,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from sklearn.metrics import (average_precision_score, confusion_matrix, f1_score, precision_recall_curve,
+from sklearn.metrics import (accuracy_score, balanced_accuracy_score, average_precision_score, confusion_matrix, f1_score, precision_recall_curve,
                              precision_score, recall_score, roc_auc_score)
 
 import models
@@ -53,7 +53,7 @@ def score_row(y, p, thr=None):
     r = {"AUC": roc_auc_score(y, p), "PR_AUC": average_precision_score(y, p)}
     if thr is not None:
         yh = (p >= thr).astype(int); tn, fp, fn, tp = confusion_matrix(y, yh).ravel()
-        r.update(threshold=thr, recall=recall_score(y, yh), precision=precision_score(y, yh), F1=f1_score(y, yh),
+        r.update(threshold=thr, accuracy=accuracy_score(y, yh), bal_acc=balanced_accuracy_score(y, yh), recall=recall_score(y, yh), precision=precision_score(y, yh), F1=f1_score(y, yh),
                  TP=tp, FP=fp, FN=fn, TN=tn)
     return r
 
