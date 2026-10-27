@@ -1,17 +1,8 @@
-   ---
-   title: Vegetable Price Spike Early Warning
-   emoji: 🥬
-   colorFrom: blue
-   colorTo: indigo
-   sdk: docker
-   app_port: 8501
-   pinned: false
-   ---
-
-Repository: https://github.com/Abaraajith-UOM/vege-price-spike
-
 # Early Warning of Weekly Vegetable Price Spikes in Sri Lankan Markets
 Applied Machine Learning, Final Assignment (Part 2). Abaraajith, index 269073E.
+
+**Live app:** https://vege-price-spike-d7a8y7yhom5gz8cdberwdd.streamlit.app/
+**Code:** https://github.com/Abaraajith-UOM/vege-price-spike
 
 **Question:** will a vegetable's price in a Colombo-area market rise by 10% or more within the next 7 days?
 Binary classification on tabular data (no deep learning, vision or RL).
