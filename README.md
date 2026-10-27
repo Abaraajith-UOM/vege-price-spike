@@ -1,3 +1,13 @@
+   ---
+   title: Vegetable Price Spike Early Warning
+   emoji: 🥬
+   colorFrom: blue
+   colorTo: indigo
+   sdk: docker
+   app_port: 8501
+   pinned: false
+   ---
+
 Repository: https://github.com/Abaraajith-UOM/vege-price-spike
 
 # Early Warning of Weekly Vegetable Price Spikes in Sri Lankan Markets
