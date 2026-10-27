@@ -1,0 +1,15 @@
+numpy
+pandas
+scikit-learn==1.9.1
+xgboost>=3.0,<4
+lightgbm==4.7.0
+catboost
+shap
+statsmodels
+matplotlib
+streamlit
+jupyter
+nbformat
+# LIME: if "pip install lime" fails to build on Windows, run: pip install lime --no-build-isolation
+lime
+mlflow
