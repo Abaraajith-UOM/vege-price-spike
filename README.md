@@ -1,5 +1,5 @@
 # Early Warning of Weekly Vegetable Price Spikes in Sri Lankan Markets
-Applied Machine Learning, Final Assignment (Part 2). Abaraajith, index 269073E.
+AML - Final Assignment - Abaraajith - 269073E.
 
 **Live app:** https://vege-price-spike-d7a8y7yhom5gz8cdberwdd.streamlit.app/
 **Code:** https://github.com/Abaraajith-UOM/vege-price-spike
